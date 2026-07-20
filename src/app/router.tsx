@@ -12,10 +12,10 @@ export const router = createBrowserRouter([
         index: true,
         element: <DashBoardPage />,
       },
+      {
+        path: "vendors",
+        element: <VendorDirectoryPage />,
+      },
     ],
-  },
-  {
-    path: "vendors",
-    element: <VendorDirectoryPage />,
   },
 ]);

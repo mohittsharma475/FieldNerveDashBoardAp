@@ -39,9 +39,9 @@ function DashBoardPage() {
     );
   }
   return (
-    <div className="mx-auto max-w-7xl space-y-6">
+    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 space-y-6">
       <KPIGrid stats={dashboard.stats} />
-      <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         <VenderTrendChart data={dashboard.trend} />
         <CategoryDistributionChart data={dashboard.categories} />
       </div>

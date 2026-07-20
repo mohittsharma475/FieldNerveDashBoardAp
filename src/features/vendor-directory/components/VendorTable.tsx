@@ -21,7 +21,7 @@ function VendorTable({ loading, vendors }: VendorTableProps) {
     );
   }
   return (
-    <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div className="max-h-[70vh] overflow-x-auto overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-sm">
       <table className="min-w-[1200px] w-full">
         <thead className="sticky top-0 bg-slate-50">
           <tr>

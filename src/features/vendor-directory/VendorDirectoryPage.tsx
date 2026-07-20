@@ -87,7 +87,6 @@ function VendorDirectoryPage() {
         onStatusChange={setStatus}
         onExport={() => alert("Exported CSV")}
       />
-      <VendorTable vendors={paginatedVendors} loading={loading} />
       {totalPages && (
         <TablePagination
           page={page}
@@ -95,6 +94,7 @@ function VendorDirectoryPage() {
           totalPages={totalPages}
         />
       )}
+      <VendorTable vendors={paginatedVendors} loading={loading} />
     </div>
   );
 }
