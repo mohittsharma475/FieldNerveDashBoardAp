@@ -1,9 +1,8 @@
-import apiClient from "../../../services/apiClient";
 import type { Vendor } from "../types/vendor.types";
+import data from "../../../../db.json";
 
 export const venderService = {
-  async getAllVendors(): Promise<Vendor[]> {
-    const { data } = await apiClient.get("/vendors");
-    return data;
+  getAllVendors(): Promise<Vendor[]> {
+    return Promise.resolve(data.vendors);
   },
 };
