@@ -1,0 +1,154 @@
+{
+  "dashboard": {
+    "stats": {
+      "totalVendors": 128,
+      "activeVendors": 96,
+      "blacklistedvendors": 5,
+      "pendingApprovals": 12,
+      "averageRating": 4.1,
+      "activePurchaseOrders": 34
+    },
+    "trend": [
+      { "month": "Feb 2026", "vendors": 78 },
+      { "month": "Mar 2026", "vendors": 85 },
+      { "month": "Apr 2026", "vendors": 92 },
+      { "month": "May 2026", "vendors": 101 },
+      { "month": "Jun 2026", "vendors": 115 },
+      { "month": "Jul 2026", "vendors": 128 }
+    ],
+    "categories": [
+      { "name": "Raw Materials", "value": 24 },
+      { "name": "Electronics", "value": 18 },
+      { "name": "Packaging", "value": 15 },
+      { "name": "Logistics", "value": 12 },
+      { "name": "IT Services", "value": 20 },
+      { "name": "Textiles", "value": 9 },
+      { "name": "Chemicals", "value": 14 },
+      { "name": "Office Supplies", "value": 8 },
+      { "name": "Machinery", "value": 5 },
+      { "name": "FMCG", "value": 3 }
+    ]
+  },
+  "vendors": [
+    {
+      "id": 1,
+      "vendorName": "Sharma Steel Works",
+      "vendorCode": "VND-1001",
+      "category": "Raw Materials",
+      "contactPerson": "Rajesh Sharma",
+      "City": "Mumbai",
+      "Rating": 4.5,
+      "Status": "Active",
+      "lastTransaction": "2026-07-12T00:00:00.000Z",
+      "totalPurchaseValue": 4520000
+    },
+    {
+      "id": 2,
+      "vendorName": "BlueWave Electronics",
+      "vendorCode": "VND-1002",
+      "category": "Electronics",
+      "contactPerson": "Priya Nair",
+      "City": "Bengaluru",
+      "Rating": 4.2,
+      "Status": "Active",
+      "lastTransaction": "2026-07-15T00:00:00.000Z",
+      "totalPurchaseValue": 3275500
+    },
+    {
+      "id": 3,
+      "vendorName": "Greenfield Packaging",
+      "vendorCode": "VND-1003",
+      "category": "Packaging",
+      "contactPerson": "Anil Kapoor",
+      "City": "Pune",
+      "Rating": 3.8,
+      "Status": "Pending",
+      "lastTransaction": "2026-07-05T00:00:00.000Z",
+      "totalPurchaseValue": 1240000
+    },
+    {
+      "id": 4,
+      "vendorName": "Om Logistics Pvt Ltd",
+      "vendorCode": "VND-1004",
+      "category": "Logistics",
+      "contactPerson": "Suresh Iyer",
+      "City": "Delhi",
+      "Rating": 4.0,
+      "Status": "Pending",
+      "lastTransaction": "2026-06-28T00:00:00.000Z",
+      "totalPurchaseValue": 5890250
+    },
+    {
+      "id": 5,
+      "vendorName": "TechNova Solutions",
+      "vendorCode": "VND-1005",
+      "category": "IT Services",
+      "contactPerson": "Neha Gupta",
+      "City": "Hyderabad",
+      "Rating": 4.7,
+      "Status": "Active",
+      "lastTransaction": "2026-07-18T00:00:00.000Z",
+      "totalPurchaseValue": 2160000
+    },
+    {
+      "id": 6,
+      "vendorName": "Modern Textiles Co.",
+      "vendorCode": "VND-1006",
+      "category": "Textiles",
+      "contactPerson": "Vikram Malhotra",
+      "City": "Surat",
+      "Rating": 3.5,
+      "Status": "BlackListed",
+      "lastTransaction": "2026-05-02T00:00:00.000Z",
+      "totalPurchaseValue": 875000
+    },
+    {
+      "id": 7,
+      "vendorName": "Suresh Chemicals",
+      "vendorCode": "VND-1007",
+      "category": "Chemicals",
+      "contactPerson": "Suresh Reddy",
+      "City": "Chennai",
+      "Rating": 4.1,
+      "Status": "Active",
+      "lastTransaction": "2026-07-10T00:00:00.000Z",
+      "totalPurchaseValue": 2730000
+    },
+    {
+      "id": 8,
+      "vendorName": "Apex Office Supplies",
+      "vendorCode": "VND-1008",
+      "category": "Office Supplies",
+      "contactPerson": "Kavita Joshi",
+      "City": "Ahmedabad",
+      "Rating": 3.9,
+      "Status": "Active",
+      "lastTransaction": "2026-07-14T00:00:00.000Z",
+      "totalPurchaseValue": 515750
+    },
+    {
+      "id": 9,
+      "vendorName": "NorthStar Engineering",
+      "vendorCode": "VND-1009",
+      "category": "Machinery",
+      "contactPerson": "Arjun Singh",
+      "City": "Kolkata",
+      "Rating": 4.4,
+      "Status": "Active",
+      "lastTransaction": "2026-07-19T00:00:00.000Z",
+      "totalPurchaseValue": 6780000
+    },
+    {
+      "id": 10,
+      "vendorName": "Sunrise Foods Ltd",
+      "vendorCode": "VND-1010",
+      "category": "FMCG",
+      "contactPerson": "Meera Pillai",
+      "City": "Jaipur",
+      "Rating": 3.7,
+      "Status": "BlackListed",
+      "lastTransaction": "2026-06-20T00:00:00.000Z",
+      "totalPurchaseValue": 1545300
+    }
+  ]
+}
