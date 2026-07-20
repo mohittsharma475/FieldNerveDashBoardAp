@@ -7,7 +7,7 @@ export interface Vendor {
   City: string;
   Rating: number;
   Status: VendorStatus;
-  lastTransaction: Date;
+  lastTransaction: string;
   totalPurchaseValue: number;
 }
 

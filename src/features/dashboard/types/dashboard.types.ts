@@ -18,6 +18,6 @@ export interface VendorCategory {
 }
 export interface DashboardResponse {
   stats: DashboardStats;
-  trend: VenderTrend;
+  trend: VenderTrend[];
   categories: VendorCategory[];
 }

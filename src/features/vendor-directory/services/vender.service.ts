@@ -3,6 +3,6 @@ import data from "../../../../db.json";
 
 export const venderService = {
   getAllVendors(): Promise<Vendor[]> {
-    return Promise.resolve(data.vendors);
+    return Promise.resolve(data.vendors as Vendor[]);
   },
 };
