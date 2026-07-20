@@ -9,7 +9,7 @@ function MainLayout() {
   return (
     <div className="flex min-h-screen bg-slate-100">
       <SideBar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-      <div className="flex flex-1 flex-col overflow-hidden lg:ml-64">
+      <div className="flex flex-1 flex-col overflow-hidden">
         <Header onMenuClick={() => setSidebarOpen((prev) => !prev)} />
         <main className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8">
           <Outlet />
